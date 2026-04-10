@@ -4,7 +4,7 @@ Public collection of reusable guides, installable skills, and workflow packs for
 
 This repo is where we publish practical building blocks for AI agent systems, not just internal notes. Each package is meant to be useful on its own, easy to share, and simple to adopt.
 
-## Current package
+## Current packages
 
 ### Obsidian Memory
 
@@ -24,6 +24,26 @@ Good fit for:
 - teams building shared memory across agents or machines
 - anyone who wants an Obsidian-first knowledge layer for agent operations
 
+### Delegation First
+
+Run execution-first orchestration with:
+- fast delegation to the right sub-agent
+- proof-of-work instead of vague status
+- exact blocker reporting
+- closed-loop updates
+- a strong orchestrator/worker boundary
+
+Included:
+- `delegation-first/GUIDE.md` — public guide for running delegation-first orchestration
+- `delegation-first/delegation-first-orchestrator/` — source skill folder
+- `delegation-first/delegation-first-orchestrator.skill` — installable OpenClaw skill for execution-first coordination
+
+Good fit for:
+- multi-agent coding workflows
+- research or ops tasks with parallel branches
+- agents that over-explain instead of acting
+- teams that want clearer ownership and verification
+
 ## Philosophy
 
 We care about skills that are:
@@ -34,4 +54,4 @@ We care about skills that are:
 
 ## More coming
 
-This is the first public package in the repo. More skills and guides will be added over time.
+More skills and guides will be added over time.
