@@ -44,6 +44,25 @@ Good fit for:
 - agents that over-explain instead of acting
 - teams that want clearer ownership and verification
 
+### High-Ticket Webinar & Funnel Builder
+
+Build high-ticket info product launches with:
+- offer architecture and pricing strategy
+- webinar funnel page structure
+- GHL CRM pipelines and automations
+- sales call scripting and objection handling
+- ad campaign architecture and launch benchmarks
+
+Included:
+- `high-ticket-webinar-funnel-builder/SKILL.md` — source skill file
+- `high-ticket-webinar-funnel-builder/high-ticket-webinar-funnel-builder.skill` — installable OpenClaw skill package
+
+Good fit for:
+- course and coaching launches
+- webinar-to-call funnels
+- GHL-heavy sales systems
+- premium training, mastermind, and certification offers
+
 ## Philosophy
 
 We care about skills that are:
