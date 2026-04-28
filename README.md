@@ -1,89 +1,44 @@
 # Shoaf Systems Skills
 
-Public collection of reusable guides, installable skills, and workflow packs for agentic engineering.
+Public Shoaf Systems skills repo for practical agent skills and guides built around OpenClaw-style workflows.
 
-This repo is where Shoaf Systems publishes practical building blocks for AI agent systems. Each package is meant to be useful on its own, easy to share, and simple to adopt.
-
-## Start here for free
-
-Everything in this repo is public and free to use.
-
-Use it when you want:
-- installable OpenClaw skills
-- agent workflow guides
-- reusable orchestration patterns
-- memory and knowledge-base setup ideas
-- practical examples you can copy into your own agent stack
-
-The free material here is meant to help you understand the systems, install the skills, and start building better agent workflows without needing to buy anything first.
-
-## Want the full build playbooks?
-
-If you want the deeper walkthroughs, premium implementation guides, templates, and build drops, go to Shoaf Systems on Whop:
-
-**👉 [Get the premium guides and resources on Whop](https://whop.com/shoaf-dev/)**
-
-That is where we put the material that goes beyond the public repo, including:
-- longer-form implementation guides
-- premium agent-building walkthroughs
-- templates, checklists, and operating playbooks
-- more complete build systems and examples
-- resources for turning agent workflows into real products, services, and revenue
-
-This repo gives you the free skills and public foundations. The Whop gives you the deeper guides and resources for building the whole system faster.
+Use this repo for public skills, guides, and patterns you can read directly, install into a compatible agent environment, or adapt for your own agent operations.
 
 ## Current packages
 
 ### Obsidian Memory
 
-Turn messy agent memory into a structured Obsidian system with:
-- raw logs and inbox memory
-- canonical shared pages
-- curated long-term sources
-- a graph that clusters around real entities instead of chat dumps
+Helps convert loose agent memory, logs, and notes into a structured Obsidian vault with raw observations, shared canonical pages, and curated long-term sources.
 
 Included:
 - `obsidian-memory/GUIDE.md` — human guide for converting existing notes, logs, exports, and agent memory into the Obsidian format
 - `obsidian-memory/shared-memory-system.skill` — installable OpenClaw skill for organizing, promoting, and maintaining that memory model
 
-Good fit for:
+Useful for:
 - OpenClaw users
 - Claude-based agent workflows
-- teams building shared memory across agents or machines
-- anyone who wants an Obsidian-first knowledge layer for agent operations
+- teams that want an Obsidian-first knowledge layer for agent operations
 
 ### Delegation First
 
-Run execution-first orchestration with:
-- fast delegation to the right sub-agent
-- proof-of-work instead of vague status
-- exact blocker reporting
-- closed-loop updates
-- a strong orchestrator/worker boundary
+A practical orchestration pattern for agents that need to delegate work clearly instead of turning the main agent into the bottleneck.
 
 Included:
 - `delegation-first/GUIDE.md` — public guide for running delegation-first orchestration
 - `delegation-first/delegation-first-orchestrator/` — source skill folder
-- `delegation-first/delegation-first-orchestrator.skill` — installable OpenClaw skill for execution-first coordination
+- `delegation-first/delegation-first-orchestrator.skill` — packaged installable OpenClaw skill
 
-Good fit for:
-- multi-agent coding workflows
-- research or ops tasks with parallel branches
-- agents that over-explain instead of acting
-- teams that want clearer ownership and verification
+Useful for:
+- multi-agent coding, research, or ops workflows
+- tasks where workers need clear ownership and evidence of progress
+- agents that need better blocker reporting and final synthesis
 
-## Philosophy
+## Whop
 
-We care about skills that are:
-- practical
-- reusable
-- easy to hand to other people
-- opinionated enough to save time
+The broader Shoaf Systems skills library lives on Whop: [https://whop.com/shoaf-dev/](https://whop.com/shoaf-dev/)
 
-## More coming
+Whop has deeper implementation material, templates, build walkthroughs, additional resources, and the larger library beyond the public GitHub skills and guides.
 
-More free skills and guides will be added here over time.
+## Using the skills
 
-For the deeper build material, premium guides, and complete resources, visit:
-
-**[https://whop.com/shoaf-dev/](https://whop.com/shoaf-dev/)**
+Download the `.skill` files from this repo and install them in OpenClaw or a compatible skill environment. The `GUIDE.md` files can also be read directly without installing anything.
