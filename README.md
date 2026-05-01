@@ -6,6 +6,20 @@ Use this repo for public skills, guides, and patterns you can read directly, ins
 
 ## Current packages
 
+### Company Brain
+
+Builds a practical Obsidian/Markdown company brain from multiple connected repos, using GBrain as the MVP search/graph engine and Graphify later for richer enrichment.
+
+Included:
+- `company-brain/GUIDE.md` — practical guide for collecting four repo URLs/local paths, building the vault, importing into GBrain, querying it, and maintaining it
+- `company-brain/company-brain/` — source skill folder
+- `company-brain/company-brain.skill` — packaged installable OpenClaw skill
+
+Useful for:
+- teams connecting knowledge across product, ops, docs, and agent workflow repos
+- founders who need a queryable company brain without starting with a heavyweight graph project
+- workflows where GBrain handles the MVP brain and Graphify is reserved for later entity/relation enrichment
+
 ### Obsidian Memory
 
 Helps convert loose agent memory, logs, and notes into a structured Obsidian vault with raw observations, shared canonical pages, and curated long-term sources.
